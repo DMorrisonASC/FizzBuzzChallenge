@@ -2,6 +2,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+html {
+    background-image: url("https://pbs.twimg.com/media/ENnH73xWkAAhD_-.jpg");
+}
 
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,14 +31,43 @@ p {
     box-sizing: border-box;
     width: 100px;
 }
+#intro_p_div {
+    width: 100%;
+    background-color: rgb(196, 255, 200 );
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 #intro_p {
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#inputFizzBuzz {
+    width: 200px;
+    height: 40px;
+    font-size: 27px;
+    border: 2px solid gray;
+}
+button {
+    width: 100px;
+    height: 40px;
+    /* Code from w3 schools */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 27px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 /* Div that lists the numbers, Fizzes and Buzzes */
 #listFizzBuzzDiv {
-    background-color: green;
+    display: none;
+    background-color: rgb(255, 154, 0);
     margin: auto;
     width: 50%;
-    box-shadow: 0 8px 6px -6px black;
-    
+    box-shadow: 10px 20px 16px 10px rgba(0,0,0,.5);
+    /* box-shadow: 0px 6px 16px 0px rgba(0,0,0,.2); */    
 }

@@ -18,18 +18,23 @@
             src="https://www.pinclipart.com/picdir/big/56-566976_symbol-drinks-talksense-coke-can-cartoon-png-clipart.png"
             alt="soda">
     </div>
-    <p id="intro_p">Fizz buzz is a group word game for children to teach them about division. Players take turns to
-        count
-        incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five
-        with the word "buzz".</p>
+    <div id="intro_p_div">
+        <p id="intro_p">Fizz buzz is a group word game for children to teach them about division. Players take turns to
+            count
+            incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by
+            five
+            with the word "buzz".</p>
+    </div>
     <main>
         <input type="number" name="input" placeholder="Pick a number!" id="inputFizzBuzz" class="center_text center">
-        <button class="center" onclick="countFizzBuzz()">Submit</button>
-        <p class="center_text">There are <span id="XnumberOfBuzz">__</span> fizzes, <span id="XnumberOfFizz">__</span>
+        <button class="center" style="margin-bottom: 10px;" onclick="countFizzBuzz()">Submit</button>
+        <p style="margin-bottom: 10px; background-color: rgb(196, 255, 200 );" class="center_text">There are <span
+                id="XnumberOfBuzz">__</span> fizzes, <span id="XnumberOfFizz">__</span>
             buzzes and
             <span id="XnumberOfFizzBuzzes">__</span> FizzBuzzes!</p>
         <div id="listFizzBuzzDiv" class="center_text"></div>
     </main>
+    <footer></footer>
 </body>
 
 </html>

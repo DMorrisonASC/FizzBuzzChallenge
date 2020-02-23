@@ -1,5 +1,9 @@
 // Function lists the X amount of number user input and replaces numbers that are diviesable 
 function countFizzBuzz() {
+    // Show the div, since it is "display: none" by deflaut. 
+    // With "none" the box shadow is visible even before user clicks. 
+    // See "listFizzBuzzDiv" in the CSS file to understand
+    document.getElementById("listFizzBuzzDiv").style.display = "block";
     listFizzBuzzDiv.innerHTML = "";
     // Get the number the user puts in
     const inputFizzBuzz = document.getElementById("inputFizzBuzz");
