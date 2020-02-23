@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+#title {
+    text-align: center;
+}
+/* Centers any element, but also turns them into a block element if not in a div, wrapper, etc. */
+.center {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+.center_text {
+    text-align: center;
+}
+#bee-image{
+    box-sizing: border-box;
+    width: 200px;
+   
+}
+#soda-image {
+    box-sizing: border-box;
+    width: 100px;
+}
+#intro_p {
+    text-align: center;
+}
+/* Div that lists the numbers, Fizzes and Buzzes */
+#listFizzBuzzDiv {
+    background-color: green;
+    margin: auto;
+    width: 50%;
+    box-shadow: 0 8px 6px -6px black;
+    
+}

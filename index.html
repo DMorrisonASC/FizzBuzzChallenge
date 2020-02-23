@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz Challenge!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fizzBuzzChallenge.js"></script>
+</head>
+
+<body>
+    <h1 id="title">The FizzBuzz Challenge!</h1>
+    <div class="center">
+        <img id="bee-image" src="https://i.pinimg.com/originals/5c/3f/11/5c3f117de062db7f39be2c13e4e8e8c5.png"
+            alt="bee">
+        <img id="soda-image"
+            src="https://www.pinclipart.com/picdir/big/56-566976_symbol-drinks-talksense-coke-can-cartoon-png-clipart.png"
+            alt="soda">
+    </div>
+    <p id="intro_p">Fizz buzz is a group word game for children to teach them about division. Players take turns to
+        count
+        incrementally, replacing any number divisible by three with the word "fizz", and any number divisible by five
+        with the word "buzz".</p>
+    <main>
+        <input type="number" name="input" placeholder="Pick a number!" id="inputFizzBuzz" class="center_text center">
+        <button class="center" onclick="countFizzBuzz()">Submit</button>
+        <p class="center_text">There are <span id="XnumberOfBuzz">__</span> fizzes, <span id="XnumberOfFizz">__</span>
+            buzzes and
+            <span id="XnumberOfFizzBuzzes">__</span> FizzBuzzes!</p>
+        <div id="listFizzBuzzDiv" class="center_text"></div>
+    </main>
+</body>
+
+</html>
