@@ -12,6 +12,7 @@ p {
 }
 #title {
     text-align: center;
+    font-size: 60px;
 }
 /* Centers any element, but also turns them into a block element if not in a div, wrapper, etc. */
 .center {
@@ -33,7 +34,7 @@ p {
 }
 #intro_p_div {
     width: 100%;
-    background-color: rgb(196, 255, 200 );
+    background-color: rgb(196, 255, 200);
     margin-top: 10px;
     margin-bottom: 10px;
 }
